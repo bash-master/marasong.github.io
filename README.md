@@ -30,7 +30,7 @@ Body 3
 
 Header 2 아래에 가로선은 따로 넣지 않아도 자동으로 들어간다. 
 
-연한 가로선은 `---` 이렇게, 진한 가로선은 `<hr>` 이렇게 넣을 수 있다.
+가로 구분선은 `---` 이렇게, 또는 `<hr>` 이렇게 넣을 수 있다.
 
 ```
 ---
@@ -45,21 +45,15 @@ Header 2 아래에 가로선은 따로 넣지 않아도 자동으로 들어간�
 리스트 형태는 아래와 같다.
 ```
 - Bulleted
- - Sub
- - Bulleted
 - List
 
 1. Numbered
- 1. Sub.Numbered
- 1. List
 1. List
- 2.1. other 
- 2.2. number
- 2.3. list
 
 **Bold** and _Italic_ and `Code` text
 
-[LinkText](http://relaypi.com/) and ![ImageAltText](https://steemitimages.com/80x0/http://bit.ly/2C62wjD)
+[LinkText](http://relaypi.com/) and 
+![ImageAltText](https://steemitimages.com/80x0/http://bit.ly/2C62wjD)
 
 ```
 
@@ -67,21 +61,16 @@ Header 2 아래에 가로선은 따로 넣지 않아도 자동으로 들어간�
 ---
 
 - Bulleted
- - Sub
- - Bulleted
 - List
 
 1. Numbered
- 1. Sub.Numbered
- 1. List
 1. List
- 2.1. other 
- 2.2. number
- 2.3. list
+
 
 **Bold** and _Italic_ and `Code` text
 
-[LinkText](http://relaypi.com/) and ![ImageAltText](https://steemitimages.com/80x0/http://bit.ly/2C62wjD)
+[LinkText](http://relaypi.com/) and 
+![ImageAltText](https://steemitimages.com/80x0/http://bit.ly/2C62wjD)
 
 
 
