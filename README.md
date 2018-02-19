@@ -11,36 +11,102 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+Syntax highlighted code block 
 
 # Header 1
+Body 1
 ## Header 2
+Body 2
 ### Header 3
+Body 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
-<hr>
 # Header 1
+Body 1
 ## Header 2
+Body 2
 ### Header 3
+Body 3
 
+Header 2 아래에 가로선은 따로 넣지 않아도 자동으로 들어간다. 
+
+연한 가로선은 `---` 이렇게, 진한 가로선은 `<hr>` 이렇게 넣을 수 있다.
+
+```
+---
+<hr>
+```
+---
+바로 위에 있는 선은 살짝 연하고
+<hr>
+
+이거는 살짝 진하다.
+
+리스트 형태는 아래와 같다.
+```
 - Bulleted
+ - Sub
+ - Bulleted
 - List
 
 1. Numbered
+ 1. Sub.Numbered
+ 1. List
 1. List
+ 2.1. other 
+ 2.2. number
+ 2.3. list
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[LinkText](http://relaypi.com/) and ![ImageAltText](https://steemitimages.com/80x0/http://bit.ly/2C62wjD)
+
+```
+
+
+---
+
+- Bulleted
+ - Sub
+ - Bulleted
+- List
+
+1. Numbered
+ 1. Sub.Numbered
+ 1. List
+1. List
+ 2.1. other 
+ 2.2. number
+ 2.3. list
+
+**Bold** and _Italic_ and `Code` text
+
+[LinkText](http://relaypi.com/) and ![ImageAltText](https://steemitimages.com/80x0/http://bit.ly/2C62wjD)
+
+```
+<p>
+<div class=pull-left>
+https://steemitimages.com/80x0/http://bit.ly/2C62wjD</div>
+이미지를 왼쪽으로 정렬하고, <br>텍스트를 그 옆에 배치합니다.
+</p>
+<p>
+<div class=pull-right>
+https://steemitimages.com/80x0/http://bit.ly/2C62wjD</div>
+이미지를 오른쪽으로 정렬하고, <br>텍스트를 그 옆에 배치합니다.
+</p>
+```
+<p>
+<div class=pull-left>
+https://steemitimages.com/80x0/http://bit.ly/2C62wjD</div>
+이미지를 왼쪽으로 정렬하고, <br>텍스트를 그 옆에 배치합니다.
+</p>
+<p>
+<div class=pull-right>
+https://steemitimages.com/80x0/http://bit.ly/2C62wjD</div>
+이미지를 오른쪽으로 정렬하고, <br>텍스트를 그 옆에 배치합니다.
+</p>
+
+<hr>
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
