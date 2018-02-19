@@ -83,28 +83,7 @@ Header 2 아래에 가로선은 따로 넣지 않아도 자동으로 들어간�
 
 [LinkText](http://relaypi.com/) and ![ImageAltText](https://steemitimages.com/80x0/http://bit.ly/2C62wjD)
 
-```
-<p>
-<div class=pull-left>
-https://steemitimages.com/80x0/http://bit.ly/2C62wjD</div>
-이미지를 왼쪽으로 정렬하고, <br>텍스트를 그 옆에 배치합니다.
-</p>
-<p>
-<div class=pull-right>
-https://steemitimages.com/80x0/http://bit.ly/2C62wjD</div>
-이미지를 오른쪽으로 정렬하고, <br>텍스트를 그 옆에 배치합니다.
-</p>
-```
-<p>
-<div class=pull-left>
-https://steemitimages.com/80x0/http://bit.ly/2C62wjD</div>
-이미지를 왼쪽으로 정렬하고, <br>텍스트를 그 옆에 배치합니다.
-</p>
-<p>
-<div class=pull-right>
-https://steemitimages.com/80x0/http://bit.ly/2C62wjD</div>
-이미지를 오른쪽으로 정렬하고, <br>텍스트를 그 옆에 배치합니다.
-</p>
+
 
 <hr>
 
